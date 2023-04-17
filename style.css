@@ -1,0 +1,81 @@
+body {
+    background-color: #055a57;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr {
+    width: 100%;
+}
+.title {
+    margin: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #d89e51;
+}
+.select {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    color: #d89e51;
+    background-color: #055a57;
+    text-align: center;
+    border: 2px solid #d89e51;
+        &:focus {
+            outline: none;
+        }
+}
+.guide {
+    font-size: 20px;
+    text-align: center;
+    color: #d89e51;
+}
+
+.index-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reset-btn {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #d89e51;
+    border-radius: 50px;
+    color: #d89e51;
+    background-color: #055a57;
+    cursor: pointer;
+}
+.invert-btn {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #d89e51;
+    border-radius: 50px;
+    color: #d89e51;
+    background-color: #055a57;
+    cursor: pointer;
+}
+.btn-container {
+    display: flex;
+    gap: 5px;
+}
+label {
+    margin: 8px;
+    color: #d89e51;
+}
+input {
+    height: 20px;
+    background-color: #055a57;
+    color: white;
+    border: 2px solid #d89e51;
+    &:focus {
+        outline: none;
+    }
+}
